@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color palette */
+  --color-o2-blue: #0050ff;
+  --color-gray-00: #ffffff;
+  --color-gray-300: #c9c9ce;
+  --color-gray-500: #8c8c9a;
+  --color-gray-950: #2c2c31;
+  --color-alpha-dim-50: #1a1a1a0f;
+  --color-alpha-dim-800: #1a1a1acc;
+  --color-red-100: #ffdcdc;
+  --color-red-600: #dc2828;
+  --color-yellow-100: #faf1b6;
+  --color-yellow-700: #a56315;
+
+  --color-surface-x-high: var(--color-gray-500);
+  --color-surface-x-low: var(--color-gray-00);
+  --color-surface-brand: var(--color-o2-blue);
+  --color-surface-danger: var(--color-red-600);
+  --color-surface-danger-variant: var(--color-red-100);
+  --color-surface-warning: var(--color-yellow-700);
+  --color-surface-warning-variant: var(--color-yellow-100);
+
+  --color-content-neutral-xx-high: var(--color-gray-950);
+  --color-content-neutral-medium: var(--color-gray-500);
+  --color-content-neutral-low: var(--color-gray-300);
+  --color-content-neutral-danger: var(--color-red-600);
+  --color-content-neutral-warning: var(--color-yellow-700);
+
+  --color-content-state-default-hover: var(--color-alpha-dim-50);
+  --color-content-state-default-focus: var(--color-alpha-dim-800);
+}
